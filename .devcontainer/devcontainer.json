@@ -22,5 +22,21 @@
 	"remoteUser": "vscode",
 	"remoteEnv": {
 		"PATH": "${containerEnv:DENO_INSTALL}/bin:${containerEnv:PATH}"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"antfu.file-nesting",
+				"trunk.io",
+				"formulahendry.auto-rename-tag",
+				"EditorConfig.EditorConfig",
+				"quicktype.quicktype",
+				"aaron-bond.better-comments",
+				"GitHub.copilot",
+				"WakaTime.vscode-wakatime",
+				"sastan.twind-intellisense",
+				"denoland.vscode-deno"
+			]
+		}
 	}
 }
