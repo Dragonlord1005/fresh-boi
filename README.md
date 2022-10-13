@@ -1,10 +1,11 @@
-# fresh project
+# fresh boi
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
 
-### Usage
+## Usage
 
 Start the project:
 
-```
+```bash
 deno task start
 ```
 
